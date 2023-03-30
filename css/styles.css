@@ -240,7 +240,11 @@ body {
   flex-grow: 0;
 }
 
-.filter-btn:hover,
+.filter-btn:hover {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+
 .filter-btn:focus {
   background-color: #404bbf;
   color: #ffffff;
