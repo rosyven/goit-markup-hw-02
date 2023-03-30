@@ -1,5 +1,5 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #2e2f42;
   background: #ffffff;
 }
@@ -27,11 +27,17 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2E2F42;
+  color: #2e2f42;
 }
 
-.header-link-text:active {
+.header-link-text:active,
+.header-link-text:focus,
+.header-contacts:active {
   color: #404bbf;
+}
+
+.link {
+  text-decoration: none;
 }
 
 .header-link-text {
@@ -40,11 +46,15 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color: #2e2f42;
 
   flex: none;
   order: 0;
   flex-grow: 0;
+}
+
+.list {
+  list-style: none;
 }
 
 .header-contacts {
@@ -54,10 +64,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-}
-
-.header-contacts:active {
-  color: #404bbf;
 }
 
 .banner {
@@ -78,10 +84,14 @@ body {
   height: 120px;
 }
 
-.banner-button {
-  background-color: #4D5AE5;
+.btn-cursor {
+  cursor: pointer;
+}
 
-  font-family: 'Roboto';
+.banner-button {
+  background-color: #4d5ae5;
+
+  font-family: "Roboto";
   color: #ffffff;
   font-style: normal;
   font-weight: 500;
@@ -90,12 +100,12 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
 
-  cursor: pointer;
   width: 169px;
   height: 56px;
 }
 
-.banner-button:hover {
+.banner-button:hover,
+.banner-button:focus {
   background-color: #404bbf;
 }
 
@@ -127,7 +137,7 @@ body {
   flex-grow: 0;
 }
 
-.examples-title {
+.sector-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -139,16 +149,6 @@ body {
 
 .team-section {
   background-color: #f4f4fd;
-}
-
-.team-title {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
 }
 
 .team-members-names {
@@ -180,7 +180,7 @@ body {
   background-color: #2e2f42;
   height: 312px;
 }
- 
+
 /* PORTFOLIO */
 
 .logo-studio-footer {
@@ -200,7 +200,6 @@ body {
   background-color: #f4f4fd;
   width: 116px;
   height: 48px;
-  cursor: pointer;
 
   font-family: "Roboto";
   font-style: normal;
