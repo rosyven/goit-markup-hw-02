@@ -1,11 +1,13 @@
+
+
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: #434455;
   background: #ffffff;
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -18,7 +20,7 @@ body {
 }
 
 .logo-studio-header {
-  font-family: "Raleway";
+  /* font-family: "Raleway"; */
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -30,9 +32,10 @@ body {
   color: #2e2f42;
 }
 
-.header-link-text:active,
+.header-link-text:hover,
 .header-link-text:focus,
-.header-contacts:active {
+.header-contacts:hover,
+.header-contacts:focus {
   color: #404bbf;
 }
 
@@ -57,13 +60,17 @@ body {
   list-style: none;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .header-contacts {
+  color: inherit;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .banner {
@@ -91,7 +98,7 @@ body {
 .banner-button {
   background-color: #4d5ae5;
 
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-style: normal;
   font-weight: 500;
@@ -120,7 +127,7 @@ body {
   font-size: 20px;
   line-height: 120%;
   letter-spacing: 0.02em;
-
+  color: #2e2f42;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -130,7 +137,6 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
 
   flex: none;
   order: 1;
@@ -145,10 +151,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-list {
+  background-color: #ffffff;
 }
 
 .team-members-names {
@@ -158,6 +169,7 @@ body {
   line-height: 120%;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 
   flex: none;
   order: 0;
@@ -169,7 +181,6 @@ body {
   line-height: 150%;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #434455;
 
   flex: none;
   order: 1;
@@ -201,7 +212,7 @@ body {
   width: 116px;
   height: 48px;
 
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -238,7 +249,6 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
-  color: #434455;
 
   flex: none;
   order: 1;
